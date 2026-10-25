@@ -1,0 +1,665 @@
+{
+  "as_of": "2026-10-24",
+  "inventory": {
+    "total_units": 3343,
+    "damaged_units": 51,
+    "critical_stockout_risk": [
+      {
+        "sku": "PAINT-003",
+        "depot": "Surat Depot",
+        "stock": 3.0,
+        "days_cover": 0.75,
+        "avg_daily_demand": 4.0
+      },
+      {
+        "sku": "PAINT-008",
+        "depot": "Nagpur Depot",
+        "stock": 12.0,
+        "days_cover": 1.0,
+        "avg_daily_demand": 12.0
+      },
+      {
+        "sku": "PAINT-007",
+        "depot": "Surat Depot",
+        "stock": 45.0,
+        "days_cover": 2.25,
+        "avg_daily_demand": 20.0
+      },
+      {
+        "sku": "PAINT-036",
+        "depot": "Nagpur Depot",
+        "stock": 72.0,
+        "days_cover": 4.5,
+        "avg_daily_demand": 16.0
+      }
+    ],
+    "old_stock": [
+      {
+        "sku": "PAINT-021",
+        "depot": "Mumbai TL",
+        "age_days": 155,
+        "units": 180.0,
+        "stock_value_inr": 117000.0
+      },
+      {
+        "sku": "PAINT-026",
+        "depot": "Pune Depot",
+        "age_days": 155,
+        "units": 120.0,
+        "stock_value_inr": 110400.0
+      },
+      {
+        "sku": "PAINT-036",
+        "depot": "Nagpur Depot",
+        "age_days": 155,
+        "units": 72.0,
+        "stock_value_inr": 90000.0
+      },
+      {
+        "sku": "PAINT-019",
+        "depot": "Surat Depot",
+        "age_days": 155,
+        "units": 60.0,
+        "stock_value_inr": 55200.0
+      },
+      {
+        "sku": "PAINT-014",
+        "depot": "Pune Depot",
+        "age_days": 155,
+        "units": 8.0,
+        "stock_value_inr": 5200.0
+      },
+      {
+        "sku": "PAINT-028",
+        "depot": "Nagpur Depot",
+        "age_days": 132,
+        "units": 112.0,
+        "stock_value_inr": 53760.0
+      },
+      {
+        "sku": "PAINT-002",
+        "depot": "Pune Depot",
+        "age_days": 132,
+        "units": 27.0,
+        "stock_value_inr": 33750.0
+      },
+      {
+        "sku": "PAINT-006",
+        "depot": "Pune Depot",
+        "age_days": 118,
+        "units": 120.0,
+        "stock_value_inr": 264000.0
+      },
+      {
+        "sku": "PAINT-027",
+        "depot": "Surat Depot",
+        "age_days": 118,
+        "units": 187.0,
+        "stock_value_inr": 233750.0
+      },
+      {
+        "sku": "PAINT-023",
+        "depot": "Surat Depot",
+        "age_days": 118,
+        "units": 90.0,
+        "stock_value_inr": 82800.0
+      },
+      {
+        "sku": "PAINT-024",
+        "depot": "Nagpur Depot",
+        "age_days": 118,
+        "units": 48.0,
+        "stock_value_inr": 23040.0
+      },
+      {
+        "sku": "PAINT-025",
+        "depot": "Mumbai TL",
+        "age_days": 104,
+        "units": 150.0,
+        "stock_value_inr": 138000.0
+      },
+      {
+        "sku": "PAINT-015",
+        "depot": "Surat Depot",
+        "age_days": 104,
+        "units": 90.0,
+        "stock_value_inr": 82800.0
+      },
+      {
+        "sku": "PAINT-007",
+        "depot": "Surat Depot",
+        "age_days": 104,
+        "units": 45.0,
+        "stock_value_inr": 56250.0
+      },
+      {
+        "sku": "PAINT-009",
+        "depot": "Mumbai TL",
+        "age_days": 91,
+        "units": 67.0,
+        "stock_value_inr": 113900.0
+      }
+    ],
+    "old_stock_value_inr": 1459850.0,
+    "sku_count": 36
+  },
+  "dispatch": {
+    "shipment_count": 84,
+    "delivered": 65,
+    "on_time_delivery_pct": 63.1,
+    "avg_truck_turnaround_minutes": 177.0,
+    "overdue_shipments": [
+      {
+        "shipment_id": "SHP-0072",
+        "depot": "Mumbai TL",
+        "transporter": "Coastal Carriers",
+        "days_late": 24,
+        "planned_delivery_date": "2026-09-30"
+      },
+      {
+        "shipment_id": "SHP-0018",
+        "depot": "Surat Depot",
+        "transporter": "Marigold Logistics",
+        "days_late": 15,
+        "planned_delivery_date": "2026-10-09"
+      },
+      {
+        "shipment_id": "SHP-0054",
+        "depot": "Surat Depot",
+        "transporter": "Marigold Logistics",
+        "days_late": 14,
+        "planned_delivery_date": "2026-10-10"
+      },
+      {
+        "shipment_id": "SHP-0034",
+        "depot": "Surat Depot",
+        "transporter": "Marigold Logistics",
+        "days_late": 8,
+        "planned_delivery_date": "2026-10-16"
+      },
+      {
+        "shipment_id": "SHP-0045",
+        "depot": "Pune Depot",
+        "transporter": "Western Freight",
+        "days_late": 8,
+        "planned_delivery_date": "2026-10-16"
+      },
+      {
+        "shipment_id": "SHP-0051",
+        "depot": "Nagpur Depot",
+        "transporter": "Blue Route Transport",
+        "days_late": 6,
+        "planned_delivery_date": "2026-10-18"
+      },
+      {
+        "shipment_id": "SHP-0017",
+        "depot": "Pune Depot",
+        "transporter": "Western Freight",
+        "days_late": 5,
+        "planned_delivery_date": "2026-10-19"
+      },
+      {
+        "shipment_id": "SHP-0036",
+        "depot": "Mumbai TL",
+        "transporter": "Coastal Carriers",
+        "days_late": 5,
+        "planned_delivery_date": "2026-10-19"
+      },
+      {
+        "shipment_id": "SHP-0068",
+        "depot": "Mumbai TL",
+        "transporter": "Coastal Carriers",
+        "days_late": 4,
+        "planned_delivery_date": "2026-10-20"
+      },
+      {
+        "shipment_id": "SHP-0081",
+        "depot": "Pune Depot",
+        "transporter": "Western Freight",
+        "days_late": 3,
+        "planned_delivery_date": "2026-10-21"
+      },
+      {
+        "shipment_id": "SHP-0009",
+        "depot": "Pune Depot",
+        "transporter": "Western Freight",
+        "days_late": 2,
+        "planned_delivery_date": "2026-10-22"
+      },
+      {
+        "shipment_id": "SHP-0066",
+        "depot": "Surat Depot",
+        "transporter": "Marigold Logistics",
+        "days_late": 2,
+        "planned_delivery_date": "2026-10-22"
+      }
+    ],
+    "truck_tat_target_minutes": 180,
+    "damage_rate_pct": 0.19,
+    "damaged_units": 67,
+    "dispatch_units": 34920,
+    "shipment_weight_mt": 523.8
+  },
+  "invoices": {
+    "invoice_count": 28,
+    "overdue_invoices": [
+      {
+        "invoice_id": "INV-0002",
+        "vendor": "Marigold Logistics",
+        "days_overdue": 53,
+        "amount_inr": 21000.0,
+        "po_number": "PO-1002"
+      },
+      {
+        "invoice_id": "INV-0012",
+        "vendor": "Coastal Carriers",
+        "days_overdue": 36,
+        "amount_inr": 199000.0,
+        "po_number": "PO-1012"
+      },
+      {
+        "invoice_id": "INV-0006",
+        "vendor": "Marigold Logistics",
+        "days_overdue": 28,
+        "amount_inr": 8000.0,
+        "po_number": "PO-1006"
+      },
+      {
+        "invoice_id": "INV-0003",
+        "vendor": "Blue Route Transport",
+        "days_overdue": 24,
+        "amount_inr": 18000.0,
+        "po_number": "PO-1003"
+      },
+      {
+        "invoice_id": "INV-0001",
+        "vendor": "Western Freight",
+        "days_overdue": 17,
+        "amount_inr": 185000.0,
+        "po_number": "PO-1001"
+      },
+      {
+        "invoice_id": "INV-0022",
+        "vendor": "Marigold Logistics",
+        "days_overdue": 14,
+        "amount_inr": 102000.0,
+        "po_number": "PO-1022"
+      },
+      {
+        "invoice_id": "INV-0019",
+        "vendor": "Blue Route Transport",
+        "days_overdue": 13,
+        "amount_inr": 193000.0,
+        "po_number": "PO-1019"
+      },
+      {
+        "invoice_id": "INV-0024",
+        "vendor": "Coastal Carriers",
+        "days_overdue": 11,
+        "amount_inr": 82000.0,
+        "po_number": "PO-1024"
+      },
+      {
+        "invoice_id": "INV-0023",
+        "vendor": "Blue Route Transport",
+        "days_overdue": 10,
+        "amount_inr": 171000.0,
+        "po_number": "PO-1023"
+      },
+      {
+        "invoice_id": "INV-0013",
+        "vendor": "Western Freight",
+        "days_overdue": 1,
+        "amount_inr": 132000.0,
+        "po_number": "PO-1013"
+      }
+    ],
+    "overdue_amount_inr": 1111000.0,
+    "unpaid_amount_inr": 2396000.0
+  },
+  "actions": [
+    {
+      "priority": "P0",
+      "category": "Inventory",
+      "title": "Critical SKU PAINT-003 at Surat Depot",
+      "evidence": "0.75 days of cover (3 units on hand)",
+      "recommendation": "Validate open orders and actual demand; request replenishment or approved stock transfer.",
+      "suggested_owner": "Inventory planner",
+      "status": "Proposed - review required"
+    },
+    {
+      "priority": "P0",
+      "category": "Inventory",
+      "title": "Critical SKU PAINT-008 at Nagpur Depot",
+      "evidence": "1.0 days of cover (12 units on hand)",
+      "recommendation": "Validate open orders and actual demand; request replenishment or approved stock transfer.",
+      "suggested_owner": "Inventory planner",
+      "status": "Proposed - review required"
+    },
+    {
+      "priority": "P1",
+      "category": "Dispatch",
+      "title": "Shipment SHP-0017 overdue",
+      "evidence": "5 days overdue; Western Freight",
+      "recommendation": "Verify transporter status, confirm revised ETA, and notify the receiving depot.",
+      "suggested_owner": "Logistics coordinator",
+      "status": "Proposed - review required"
+    },
+    {
+      "priority": "P1",
+      "category": "Dispatch",
+      "title": "Shipment SHP-0018 overdue",
+      "evidence": "15 days overdue; Marigold Logistics",
+      "recommendation": "Verify transporter status, confirm revised ETA, and notify the receiving depot.",
+      "suggested_owner": "Logistics coordinator",
+      "status": "Proposed - review required"
+    },
+    {
+      "priority": "P1",
+      "category": "Dispatch",
+      "title": "Shipment SHP-0034 overdue",
+      "evidence": "8 days overdue; Marigold Logistics",
+      "recommendation": "Verify transporter status, confirm revised ETA, and notify the receiving depot.",
+      "suggested_owner": "Logistics coordinator",
+      "status": "Proposed - review required"
+    },
+    {
+      "priority": "P1",
+      "category": "Dispatch",
+      "title": "Shipment SHP-0036 overdue",
+      "evidence": "5 days overdue; Coastal Carriers",
+      "recommendation": "Verify transporter status, confirm revised ETA, and notify the receiving depot.",
+      "suggested_owner": "Logistics coordinator",
+      "status": "Proposed - review required"
+    },
+    {
+      "priority": "P1",
+      "category": "Dispatch",
+      "title": "Shipment SHP-0045 overdue",
+      "evidence": "8 days overdue; Western Freight",
+      "recommendation": "Verify transporter status, confirm revised ETA, and notify the receiving depot.",
+      "suggested_owner": "Logistics coordinator",
+      "status": "Proposed - review required"
+    },
+    {
+      "priority": "P1",
+      "category": "Dispatch",
+      "title": "Shipment SHP-0051 overdue",
+      "evidence": "6 days overdue; Blue Route Transport",
+      "recommendation": "Verify transporter status, confirm revised ETA, and notify the receiving depot.",
+      "suggested_owner": "Logistics coordinator",
+      "status": "Proposed - review required"
+    },
+    {
+      "priority": "P1",
+      "category": "Dispatch",
+      "title": "Shipment SHP-0054 overdue",
+      "evidence": "14 days overdue; Marigold Logistics",
+      "recommendation": "Verify transporter status, confirm revised ETA, and notify the receiving depot.",
+      "suggested_owner": "Logistics coordinator",
+      "status": "Proposed - review required"
+    },
+    {
+      "priority": "P1",
+      "category": "Dispatch",
+      "title": "Shipment SHP-0068 overdue",
+      "evidence": "4 days overdue; Coastal Carriers",
+      "recommendation": "Verify transporter status, confirm revised ETA, and notify the receiving depot.",
+      "suggested_owner": "Logistics coordinator",
+      "status": "Proposed - review required"
+    },
+    {
+      "priority": "P1",
+      "category": "Dispatch",
+      "title": "Shipment SHP-0072 overdue",
+      "evidence": "24 days overdue; Coastal Carriers",
+      "recommendation": "Verify transporter status, confirm revised ETA, and notify the receiving depot.",
+      "suggested_owner": "Logistics coordinator",
+      "status": "Proposed - review required"
+    },
+    {
+      "priority": "P1",
+      "category": "Dispatch",
+      "title": "Shipment SHP-0081 overdue",
+      "evidence": "3 days overdue; Western Freight",
+      "recommendation": "Verify transporter status, confirm revised ETA, and notify the receiving depot.",
+      "suggested_owner": "Logistics coordinator",
+      "status": "Proposed - review required"
+    },
+    {
+      "priority": "P1",
+      "category": "Inventory",
+      "title": "Aging stock PAINT-002 at Pune Depot",
+      "evidence": "132 days; INR 33,750 indicative stock value",
+      "recommendation": "Review demand, quality restrictions and approved redistribution or liquidation options.",
+      "suggested_owner": "Warehouse lead",
+      "status": "Proposed - review required"
+    },
+    {
+      "priority": "P1",
+      "category": "Inventory",
+      "title": "Aging stock PAINT-014 at Pune Depot",
+      "evidence": "155 days; INR 5,200 indicative stock value",
+      "recommendation": "Review demand, quality restrictions and approved redistribution or liquidation options.",
+      "suggested_owner": "Warehouse lead",
+      "status": "Proposed - review required"
+    },
+    {
+      "priority": "P1",
+      "category": "Inventory",
+      "title": "Aging stock PAINT-019 at Surat Depot",
+      "evidence": "155 days; INR 55,200 indicative stock value",
+      "recommendation": "Review demand, quality restrictions and approved redistribution or liquidation options.",
+      "suggested_owner": "Warehouse lead",
+      "status": "Proposed - review required"
+    },
+    {
+      "priority": "P1",
+      "category": "Inventory",
+      "title": "Aging stock PAINT-021 at Mumbai TL",
+      "evidence": "155 days; INR 117,000 indicative stock value",
+      "recommendation": "Review demand, quality restrictions and approved redistribution or liquidation options.",
+      "suggested_owner": "Warehouse lead",
+      "status": "Proposed - review required"
+    },
+    {
+      "priority": "P1",
+      "category": "Inventory",
+      "title": "Aging stock PAINT-026 at Pune Depot",
+      "evidence": "155 days; INR 110,400 indicative stock value",
+      "recommendation": "Review demand, quality restrictions and approved redistribution or liquidation options.",
+      "suggested_owner": "Warehouse lead",
+      "status": "Proposed - review required"
+    },
+    {
+      "priority": "P1",
+      "category": "Inventory",
+      "title": "Aging stock PAINT-028 at Nagpur Depot",
+      "evidence": "132 days; INR 53,760 indicative stock value",
+      "recommendation": "Review demand, quality restrictions and approved redistribution or liquidation options.",
+      "suggested_owner": "Warehouse lead",
+      "status": "Proposed - review required"
+    },
+    {
+      "priority": "P1",
+      "category": "Inventory",
+      "title": "Aging stock PAINT-036 at Nagpur Depot",
+      "evidence": "155 days; INR 90,000 indicative stock value",
+      "recommendation": "Review demand, quality restrictions and approved redistribution or liquidation options.",
+      "suggested_owner": "Warehouse lead",
+      "status": "Proposed - review required"
+    },
+    {
+      "priority": "P1",
+      "category": "Inventory",
+      "title": "Critical SKU PAINT-007 at Surat Depot",
+      "evidence": "2.25 days of cover (45 units on hand)",
+      "recommendation": "Validate open orders and actual demand; request replenishment or approved stock transfer.",
+      "suggested_owner": "Inventory planner",
+      "status": "Proposed - review required"
+    },
+    {
+      "priority": "P1",
+      "category": "Inventory",
+      "title": "Critical SKU PAINT-036 at Nagpur Depot",
+      "evidence": "4.5 days of cover (72 units on hand)",
+      "recommendation": "Validate open orders and actual demand; request replenishment or approved stock transfer.",
+      "suggested_owner": "Inventory planner",
+      "status": "Proposed - review required"
+    },
+    {
+      "priority": "P1",
+      "category": "Payments",
+      "title": "Vendor invoice INV-0001 overdue",
+      "evidence": "17 days overdue; INR 185,000",
+      "recommendation": "Check invoice/PO documentation and follow up with finance and vendor.",
+      "suggested_owner": "Procurement / finance",
+      "status": "Proposed - review required"
+    },
+    {
+      "priority": "P1",
+      "category": "Payments",
+      "title": "Vendor invoice INV-0002 overdue",
+      "evidence": "53 days overdue; INR 21,000",
+      "recommendation": "Check invoice/PO documentation and follow up with finance and vendor.",
+      "suggested_owner": "Procurement / finance",
+      "status": "Proposed - review required"
+    },
+    {
+      "priority": "P1",
+      "category": "Payments",
+      "title": "Vendor invoice INV-0003 overdue",
+      "evidence": "24 days overdue; INR 18,000",
+      "recommendation": "Check invoice/PO documentation and follow up with finance and vendor.",
+      "suggested_owner": "Procurement / finance",
+      "status": "Proposed - review required"
+    },
+    {
+      "priority": "P1",
+      "category": "Payments",
+      "title": "Vendor invoice INV-0006 overdue",
+      "evidence": "28 days overdue; INR 8,000",
+      "recommendation": "Check invoice/PO documentation and follow up with finance and vendor.",
+      "suggested_owner": "Procurement / finance",
+      "status": "Proposed - review required"
+    },
+    {
+      "priority": "P1",
+      "category": "Payments",
+      "title": "Vendor invoice INV-0012 overdue",
+      "evidence": "36 days overdue; INR 199,000",
+      "recommendation": "Check invoice/PO documentation and follow up with finance and vendor.",
+      "suggested_owner": "Procurement / finance",
+      "status": "Proposed - review required"
+    },
+    {
+      "priority": "P2",
+      "category": "Dispatch",
+      "title": "Shipment SHP-0009 overdue",
+      "evidence": "2 days overdue; Western Freight",
+      "recommendation": "Verify transporter status, confirm revised ETA, and notify the receiving depot.",
+      "suggested_owner": "Logistics coordinator",
+      "status": "Proposed - review required"
+    },
+    {
+      "priority": "P2",
+      "category": "Dispatch",
+      "title": "Shipment SHP-0066 overdue",
+      "evidence": "2 days overdue; Marigold Logistics",
+      "recommendation": "Verify transporter status, confirm revised ETA, and notify the receiving depot.",
+      "suggested_owner": "Logistics coordinator",
+      "status": "Proposed - review required"
+    },
+    {
+      "priority": "P2",
+      "category": "Inventory",
+      "title": "Aging stock PAINT-006 at Pune Depot",
+      "evidence": "118 days; INR 264,000 indicative stock value",
+      "recommendation": "Review demand, quality restrictions and approved redistribution or liquidation options.",
+      "suggested_owner": "Warehouse lead",
+      "status": "Proposed - review required"
+    },
+    {
+      "priority": "P2",
+      "category": "Inventory",
+      "title": "Aging stock PAINT-023 at Surat Depot",
+      "evidence": "118 days; INR 82,800 indicative stock value",
+      "recommendation": "Review demand, quality restrictions and approved redistribution or liquidation options.",
+      "suggested_owner": "Warehouse lead",
+      "status": "Proposed - review required"
+    },
+    {
+      "priority": "P2",
+      "category": "Inventory",
+      "title": "Aging stock PAINT-024 at Nagpur Depot",
+      "evidence": "118 days; INR 23,040 indicative stock value",
+      "recommendation": "Review demand, quality restrictions and approved redistribution or liquidation options.",
+      "suggested_owner": "Warehouse lead",
+      "status": "Proposed - review required"
+    },
+    {
+      "priority": "P2",
+      "category": "Inventory",
+      "title": "Aging stock PAINT-025 at Mumbai TL",
+      "evidence": "104 days; INR 138,000 indicative stock value",
+      "recommendation": "Review demand, quality restrictions and approved redistribution or liquidation options.",
+      "suggested_owner": "Warehouse lead",
+      "status": "Proposed - review required"
+    },
+    {
+      "priority": "P2",
+      "category": "Inventory",
+      "title": "Aging stock PAINT-027 at Surat Depot",
+      "evidence": "118 days; INR 233,750 indicative stock value",
+      "recommendation": "Review demand, quality restrictions and approved redistribution or liquidation options.",
+      "suggested_owner": "Warehouse lead",
+      "status": "Proposed - review required"
+    },
+    {
+      "priority": "P2",
+      "category": "Payments",
+      "title": "Vendor invoice INV-0013 overdue",
+      "evidence": "1 days overdue; INR 132,000",
+      "recommendation": "Check invoice/PO documentation and follow up with finance and vendor.",
+      "suggested_owner": "Procurement / finance",
+      "status": "Proposed - review required"
+    },
+    {
+      "priority": "P2",
+      "category": "Payments",
+      "title": "Vendor invoice INV-0019 overdue",
+      "evidence": "13 days overdue; INR 193,000",
+      "recommendation": "Check invoice/PO documentation and follow up with finance and vendor.",
+      "suggested_owner": "Procurement / finance",
+      "status": "Proposed - review required"
+    },
+    {
+      "priority": "P2",
+      "category": "Payments",
+      "title": "Vendor invoice INV-0022 overdue",
+      "evidence": "14 days overdue; INR 102,000",
+      "recommendation": "Check invoice/PO documentation and follow up with finance and vendor.",
+      "suggested_owner": "Procurement / finance",
+      "status": "Proposed - review required"
+    },
+    {
+      "priority": "P2",
+      "category": "Payments",
+      "title": "Vendor invoice INV-0023 overdue",
+      "evidence": "10 days overdue; INR 171,000",
+      "recommendation": "Check invoice/PO documentation and follow up with finance and vendor.",
+      "suggested_owner": "Procurement / finance",
+      "status": "Proposed - review required"
+    },
+    {
+      "priority": "P2",
+      "category": "Payments",
+      "title": "Vendor invoice INV-0024 overdue",
+      "evidence": "11 days overdue; INR 82,000",
+      "recommendation": "Check invoice/PO documentation and follow up with finance and vendor.",
+      "suggested_owner": "Procurement / finance",
+      "status": "Proposed - review required"
+    }
+  ],
+  "disclaimer": "Synthetic example data. Recommendations require human review; no operational actions are executed."
+}

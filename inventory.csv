@@ -1,0 +1,37 @@
+sku,product,depot,on_hand_units,avg_daily_demand,oldest_stock_days,damaged_units,unit_value_inr,critical_sku
+PAINT-001,Interior Emulsion,Mumbai TL,135,6,12,1,920,No
+PAINT-002,Exterior Weathercoat,Pune Depot,27,12,132,3,1250,No
+PAINT-003,Primer,Surat Depot,3,4,43,1,1250,Yes
+PAINT-004,Wall Putty,Nagpur Depot,30,4,43,2,1250,Yes
+PAINT-005,Enamel,Mumbai TL,180,16,35,2,1250,No
+PAINT-006,Wood Finish,Pune Depot,120,4,118,2,2200,No
+PAINT-007,Waterproofing,Surat Depot,45,20,104,1,1250,Yes
+PAINT-008,Texture Coat,Nagpur Depot,12,12,12,3,2200,Yes
+PAINT-009,Interior Emulsion,Mumbai TL,67,6,91,0,1700,No
+PAINT-010,Exterior Weathercoat,Pune Depot,112,10,60,0,1250,No
+PAINT-011,Primer,Surat Depot,112,6,60,1,480,No
+PAINT-012,Wall Putty,Nagpur Depot,150,20,19,0,2200,Yes
+PAINT-013,Enamel,Mumbai TL,45,10,60,0,1250,No
+PAINT-014,Wood Finish,Pune Depot,8,8,155,5,650,No
+PAINT-015,Waterproofing,Surat Depot,90,4,104,0,920,No
+PAINT-016,Texture Coat,Nagpur Depot,135,12,43,1,1700,Yes
+PAINT-017,Interior Emulsion,Mumbai TL,120,20,19,3,1700,Yes
+PAINT-018,Exterior Weathercoat,Pune Depot,150,10,19,3,2200,No
+PAINT-019,Primer,Surat Depot,60,10,155,2,920,No
+PAINT-020,Wall Putty,Nagpur Depot,22,2,19,0,1700,Yes
+PAINT-021,Enamel,Mumbai TL,180,16,155,2,650,No
+PAINT-022,Wood Finish,Pune Depot,22,10,23,3,480,No
+PAINT-023,Waterproofing,Surat Depot,90,8,118,0,920,No
+PAINT-024,Texture Coat,Nagpur Depot,48,8,118,5,480,Yes
+PAINT-025,Interior Emulsion,Mumbai TL,150,8,104,0,920,No
+PAINT-026,Exterior Weathercoat,Pune Depot,120,4,155,1,920,No
+PAINT-027,Primer,Surat Depot,187,10,118,0,1250,No
+PAINT-028,Wall Putty,Nagpur Depot,112,6,132,0,480,Yes
+PAINT-029,Enamel,Mumbai TL,270,12,60,0,1250,No
+PAINT-030,Wood Finish,Pune Depot,15,12,35,0,1250,No
+PAINT-031,Waterproofing,Surat Depot,45,10,74,0,650,No
+PAINT-032,Texture Coat,Nagpur Depot,225,12,60,2,480,Yes
+PAINT-033,Interior Emulsion,Mumbai TL,135,6,74,1,480,No
+PAINT-034,Exterior Weathercoat,Pune Depot,27,12,35,3,1250,No
+PAINT-035,Primer,Surat Depot,22,2,60,1,1250,No
+PAINT-036,Wall Putty,Nagpur Depot,72,16,155,3,1250,Yes

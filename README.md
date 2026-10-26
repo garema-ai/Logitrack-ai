@@ -6,6 +6,7 @@
 > **DEMO / SYNTHETIC DATA ONLY.** This project is inspired by common outbound logistics responsibilities. It is **not affiliated with Asian Paints** and does not connect to any company's systems. It never releases purchase orders, pays bills, or contacts transporters.
 
 ## View the demo
+App link : https://logitrack-ai-garema.streamlit.app/
 
 **No-code browser preview:** Open [`docs/index.html`](docs/index.html) in a browser. After publishing to GitHub, enable **GitHub Pages** for a public demo link (see below). The preview is read-only and uses the packaged sample analysis.
 
